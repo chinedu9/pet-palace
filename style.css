@@ -9,7 +9,11 @@
     text-decoration: none;
     transition: .2s linear;
     }
-
+body{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
     
 html{
     overflow-x: hidden;
@@ -18,12 +22,6 @@ html{
 }
 
 
-@keyframes fadeIn{
-    0%{
-        transform: translateY(4rem);
-        opacity: 0;
-    }
-}
 
 /* header start here */
 
@@ -32,7 +30,14 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1% 6%;
-    background: #16381E;;
+    background: #16381E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+ 
+
 }
 
 .logo img{
@@ -58,6 +63,10 @@ nav a{
 
 .hero-image{
    position: relative;
+}
+
+.hero-page{
+    margin-top: 6%;
 }
 
 .hero-info{
@@ -89,7 +98,7 @@ margin-bottom: 4%;
 .hero-btn{
     border-radius: 16px;
     background: #05330F;
-    padding: 1% 4%;color: #FFF;
+    padding: 2% 8%;color: #FFF;
     font-size: 16px;
     font-weight: 600;
     line-height: 16px; /* 100% */
@@ -109,12 +118,10 @@ margin-bottom: 4%;
 .Solutions{
     background-color: #F2FFF5;
     padding: 2% 0;
+    border-bottom: 10px solid  #16381E;
 }
 
-.Solutions h1,p{
-    text-align: center;
-
-}
+/*   */
 
 
 .Solutions h1{
@@ -161,12 +168,7 @@ margin-bottom: 4%;
 
 
 
-.solution-pet-info{
-    
-    background: #D0F9D9;
-    /* padding: 8.4%; */
-    animation: fadeIn .5s linear;
-}
+
 
 .solution-pet-info h3{
     color: #000;
@@ -195,7 +197,7 @@ margin-bottom: 4%;
     border-radius: 8px;
     border: 1px solid #05330F;
     color: #05330F;
-    padding: 2% 2%;
+    padding: 2% 4%;
     margin-left: 7%;
 
     &:hover{
@@ -207,5 +209,223 @@ margin-bottom: 4%;
 
 /* solution section ends here */
 
+
+/* Testimonials start here */
+
+.Testimonials-cover{
+    margin: 2% 5%;
+}
+
+.Testimonials-cover h2{
+    padding-bottom: 4%;
+    padding-top: 6%;
+    color: #212934;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 100% */
+    letter-spacing: -1.92px;
+  }
+
+.Testimonials{
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+    margin-bottom: 10%;
+}
+
+
+
+.Test-card{
+    display: flex;
+    gap: 2%;
+    border-radius: 16px;
+    border: 1px solid #75A17F;
+    background: #F2FFF5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 2% 2%;
+   
+}
+
+.test-img{
+    width: 100%;
+}
+
+.test-info h3{
+    color: #212934;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+    margin-bottom: 2%;
+    
+}
+
+
+.test-info p{
+    color: #404B5A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+/* Testimonials ends here */
+
+/* customer page start here */
+
+.customer-cover{
+    display: flex;
+    align-items: center;
+    /* background-color: #05330F; */
+    margin-bottom: 4%;
+}
+
+.customer-info{ 
+    background-color: #05330F;
+    padding: 9.1%;
+}
+
+.customer-info h3{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    letter-spacing: -1.28px;
+    margin-bottom: 4%;
+    
+}
+
+.customer-info p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    margin-bottom: 4%;
+}
+
+.customer-btn{
+    border-radius: 4px;
+    background: #FFF;
+    color: #05330F;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+    text-transform: uppercase;
+    padding: 2% 6%;
+    }
+
+
+    .customer-btn:hover{
+        border:  2px solid #FFF;
+        background-color: transparent;
+        color: #FFF;
+    }
+
+
+/* form */
+
+.customer-form-section{
+    display: flex;
+    align-items: center;
+    margin: 8%;
+    /* gap: 8%; */
+}
+
+input{
+    border: 1.5px solid #05330F;
+    padding: 2% 4%;
+    border-radius: 4px;
+  
+}
+
+.form-section-info{
+    width: 40%;
+}
+
+ form{
+    width: 60%;
+}
+
+.input-main{
+    display: flex;
+   width: 100%;
+   margin-bottom: 2%;
+}
+
+.input-item{
+    width: 100%;
+}
+
+.input-item input{
+    width: 95%;
+
+}
+
+.input-item label{
+    display: block; 
+    margin-bottom: 2%; 
+}
+
+form a{
+    width: 98%;
+    background-color: #05330F;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 1% 4%;
+    color: #FFF;
+}
+/* customer page ends here */
+
+/* footer start here */
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 8%;
+ background: #05330F;
+ padding: 4% 8%;
+
+}
+
+footer h3{
+    color: #FFF;
+/* font-family: Inter; */
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.96px;
+margin-bottom: 4%;
+}
+
+footer p{
+    color: #F3FBFE;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+}
+
+.footer-center-sub input{
+    width: 100%;
+}
+
+.center-checkbox{
+    display: flex;
+    gap: 4%;
+    margin-top: 4%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer ends here */
 
 
