@@ -1,0 +1,363 @@
+@media (max-width:768px){
+
+/* hero start here */
+
+
+.menu-icon{
+    display: block; 
+    
+}
+
+nav{
+    display: none;
+}
+
+.menu-icon.hide {
+    display: none;
+}
+
+.menu-icon-clos.hide {
+    display: block;
+}
+
+.nav2.visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Background,white );
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 12;
+}
+
+.nav2 a {
+    color: #141414;
+    text-align: center;
+    /* font-family: 'Clash Grotesk'; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    padding: 10% 0 2% 0;
+    border-bottom: 0.5px solid #525252;
+    width: 20%;
+}
+
+.nav2 a:last-child {
+    border: none;
+}
+
+.nav2 a:first-child {
+    padding: 3% 0 2% 0;
+}
+
+
+
+
+    .hero-image2{
+        flex-direction: column;
+        display: flex;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+    .hero-image{
+        display: none;
+    }
+      
+  
+
+    .hero-info{
+        display: none;
+    }
+
+    .hero-info2{
+        display: inline-block;
+        text-align: center;
+        background: #EBECE6;
+        padding: 8%;
+    }
+
+    .hero-image2 h3{
+        color: #15191E;
+text-align: center;
+font-family: Switzer;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 26.5px; /* 110.417% */
+letter-spacing: -0.48px;
+margin-top: 4%;
+    }
+
+    .hero-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .hero-page{
+        width: 100%;
+    }
+
+    /* ends here */
+
+
+         /* Testimonials-cover  start here*/
+
+         .Testimonials-cover{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .Testimonials{
+            display: flex;
+            flex-direction: column;
+           
+            margin: 4%;
+        }
+    
+    .Test-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+      
+     /* Testimonials-cover  ends here*/
+
+    /* customer-cover starts here */
+
+    .customer-cover{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* align-items: center; */
+        /* background-color: #05330F; */
+        padding: 2% 0%;
+    }
+    
+    .customer-info{ 
+        background-color: #05330F;
+        padding: 7%;
+    }
+    
+    .customer-info h3{
+        color: #FFF;
+        font-family: Switzer;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    .customer-info p{
+        color: #CCC;
+        font-family: Switzer;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 133.333% */
+        margin-bottom: 8%;
+    }
+    
+    .customer-btn{
+        border-radius: 16px;
+        background: #FFF;
+        color: #05330F;
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+        text-transform: uppercase;
+        padding: 2% 6%;
+        }
+    
+    
+        .customer-btn:hover{
+            border:  2px solid #FFF;
+            background-color: transparent;
+            color: #FFF;
+        }
+    
+        .customer-info, .customer-img{
+            width: 100%;
+        }
+    
+        .customer-img {
+            width: 100%;
+            
+        }
+
+    /* ends here */
+
+ 
+   
+    .left-sub{
+        display: flex;
+        flex-direction: row;
+        gap: 4%;
+    }
+
+
+   
+
+    /* Solutions start here */
+
+    .Solutions h1{
+        color: #212934;
+    text-align: center;
+    /* font-family: Switzer; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+    padding: 2% 0;
+    }
+
+    .solution-sub-h1{
+        color: #457650;
+        text-align: center;
+        font-family: Switzer;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 114.286% */
+        padding-bottom: 4%;
+    }
+
+    
+    .item-change1{
+        display: flex;
+       flex-direction: column;
+    }
+
+    .item-change2{
+        display: flex;
+flex-direction: column-reverse;
+    }
+
+    .item-change3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-change4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image1, .solution-pet-info{
+        width: 100%;
+    }
+
+    .image1 img{
+        border-radius: 16px 16px 0 0;
+    }
+
+    .solution-pet-info{
+        margin: 8% 0;
+    }
+
+
+    .image2, .solution-pet-info{
+        width: 100%;
+    }
+    .image2 img{
+        border-radius: 16px 16px 0 0;
+    }
+
+    .image3, .solution-pet-info{
+        width: 100%;
+    }
+    .image3 img{
+        border-radius: 16px 16px 0 0;
+    }
+
+    .image4, .solution-pet-info{
+        width: 100%;
+    }
+    .image4 img{
+        border-radius: 16px 16px 0 0;
+    }
+
+/* footer start here */
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.form-section-info, .form{
+    width: 100%;
+}
+/* ends here */
+
+
+.customer-form-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-section-info, form{
+    width: 100%;
+}
+
+
+}
+
+
+@media (max-width:884px){
+    
+}
+
+
+
+
+
+@media (max-width:1248px) {
+    .hero-info h3{
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width:1088px){
+    .hero-info h3{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:956px) {
+    .hero-info h3{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:1024px) {
+    /* header start here */
+
+    .customer-img img{
+       /* height: 100vh; */
+        
+    }
+
+    /* headr ends here */
+}
