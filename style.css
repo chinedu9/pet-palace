@@ -14,11 +14,16 @@
     outline: none;
     text-decoration: none;
     transition: .2s linear;
+   
+    }
+    img{
+        /* width:100%; */
     }
 body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+   
 }
     
 html{
@@ -686,6 +691,9 @@ form a{
     margin-bottom: 4%;
 }
 
+.care-img img{
+    width: 100%;
+}
 
 
 .pet-care-left{
@@ -696,6 +704,10 @@ form a{
     width: 50%;
     background: #D0F9D9;
     /* margin: 2%; */
+}
+
+.pet-care-right{
+    width: 50%;
 }
 
 .pet-care-left-info{
@@ -885,7 +897,7 @@ z-index: 1;
 
 /* footer start here */
 
-footer{
+.footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -893,6 +905,23 @@ footer{
  background: #05330F;
  padding: 4% 8%;
 
+}
+
+footer{
+    background: #05330F;
+    padding-bottom: 4%;
+}
+
+.footer-p {
+    text-align: center;
+    font-size: 14px;
+    /* margin: 2% 0; */
+    color: white;
+}
+
+
+iframe{
+    width: 100%;
 }
 
 
@@ -955,7 +984,7 @@ margin: 8% 0;
 /* and end here */
 
 
-footer h3{
+.footer h3{
     color: #FFF;
 /* font-family: Inter; */
 font-size: 24px;
@@ -966,7 +995,7 @@ letter-spacing: -0.96px;
 margin-bottom: 4%;
 }
 
-footer p{
+.footer p{
     color: #F3FBFE;
     font-size: 14px;
     font-style: normal;

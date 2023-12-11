@@ -140,12 +140,52 @@
         .map-left, .map-right{
             width: 100%;
         }
-
-        /* .map-right2{
+/* 
+        .map-right2{
             display: block;
         }
         
         .map-right{
             display: none;
-        }
-} */
+        } */
+
+        
+/* footer start here */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left, .footer-center{
+    width: 100%;
+}
+
+
+footer{
+    background: #05330F;
+}
+
+.footer-p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 4%;
+    color: white;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.form-section-info, .form{
+    width: 100%;
+}
+}
+
+
+img{
+    width: 100%;
+}

@@ -110,6 +110,10 @@
         margin: 0 10% 8% 0;
     }
 
+    .pet-care-right{
+        width: 100%;
+    }
+
     .position img, .choose-position img{
         display: none;
     }
@@ -281,6 +285,42 @@
         .customer-img img{
             width: 100%;
         }
+
+
+/* footer start here */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left, .footer-center{
+    width: 100%;
+}
+
+
+footer{
+    background: #05330F;
+}
+
+.footer-p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 4%;
+    color: white;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.form-section-info, .form{
+    width: 100%;
+}
+
 }
 
 @media (max-width:768px){
@@ -345,5 +385,26 @@
 @media (max-width:1078px) {
     .services-pet-flex{
         gap: 8%;
+    }
+}
+
+@media (max-width:884px){
+
+
+    .pet-care-left-info h3{
+        font-size: 25px;
+    }
+
+    .services-pet-care h2{
+        font-size: 45px !important;
+    }
+
+    .pet-care-left-info h3{
+        font-size: 28px !important;
+    }
+
+    .pet-care-left-info h3{
+        font-weight: 600;
+        font-size: 12px !important;
     }
 }
